@@ -47,7 +47,7 @@ const Profile = () => {
               <div className="rbt-profile-content b2">Email</div>
             </div>
             <div className="col-lg-8 col-md-8">
-              <div className="rbt-profile-content b2">example@gmail.com</div>
+              <div className="rbt-profile-content b2">info@skillersity.com</div>
             </div>
           </div>
           <div className="rbt-profile-row row row--15 mt--15">
@@ -55,7 +55,7 @@ const Profile = () => {
               <div className="rbt-profile-content b2">Phone Number</div>
             </div>
             <div className="col-lg-8 col-md-8">
-              <div className="rbt-profile-content b2">+1-202-555-0174</div>
+              <div className="rbt-profile-content b2">+91 81380 60010</div>
             </div>
           </div>
           <div className="rbt-profile-row row row--15 mt--15">

@@ -38,14 +38,12 @@ const LanguageAcademy = ({ blogs }) => {
                   <div className="inner">
                     <div className="section-title text-start">
                       <span className="subtitle bg-primary-opacity">
-                        EDUCATION FOR EVERYONE
+                      Welcome to SKILLESITY
                       </span>
                     </div>
                     <h1 className="title">
-                      Innovative
-                      <span className="theme-gradient">Language Academic</span>
-                      Platform for Your Career.
-                    </h1>
+                    Advancing
+                      <span className="theme-gradient"> Your Career with</span> Practical Learning</h1>
                     <div className="rbt-like-total">
                       <div className="profile-share">
                         <Link

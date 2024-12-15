@@ -133,21 +133,21 @@
       "gridItem": 2,
       "submenuBanner": [
         {
-          "title": "Developer hub",
-          "description": "Start building fast, with code samples, key resources and more."
+          "title": "Classroom",
+          "description": "The more you learn, the more you earn."
         }
       ],
       "menuFooterItems": [
         {
-          "title": "Quick Start Guide",
+          "title": "Call Now",
           "link": "#"
         },
         {
-          "title": "For Open Source",
+          "title": "Redeem Your Coupoun",
           "link": "#"
         },
         {
-          "title": "API Status",
+          "title": "Have Doubts?",
           "link": "#"
         },
         {
@@ -157,62 +157,16 @@
       ],
       "menuItems": [
         {
-          "title": "Filter One Toggle",
+          "title": "AI Based Digital Marketing",
           "link": "/course-filter-one-toggle"
         },
         {
-          "title": "Filter One Open",
+          "title": "Video Editing",
           "link": "/course-filter-one-open"
         },
         {
-          "title": "Filter Two Toggle",
+          "title": "Graphic Designing",
           "link": "/course-filter-two-toggle"
-        },
-        {
-          "title": "Filter Two Open",
-          "link": "/course-filter-two-open"
-        },
-        {
-          "title": "Course With Tab",
-          "link": "/course-with-tab"
-        },
-        {
-          "title": "Course With Tab Two",
-          "link": "/course-with-tab-two"
-        },
-        {
-          "title": "Course Card Two",
-          "link": "/course-card-2"
-        },
-        {
-          "title": "Course Card Three",
-          "link": "/course-card-3"
-        },
-        {
-          "title": "Course Masonry",
-          "link": "/course-masonry"
-        },
-        {
-          "title": "Course With Sidebar",
-          "link": "/course-with-sidebar"
-        },
-        {
-          "title": "Course Details",
-          "link": "/course-details"
-        },
-        {
-          "title": "Course Details Two",
-          "link": "/course-details-two"
-        },
-        {
-          "title": "Course Lesson",
-          "link": "/lesson",
-          "subTitle": "New"
-        },
-        {
-          "title": "Create Course",
-          "link": "/create-course",
-          "subTitle": "New"
         }
       ]
     },

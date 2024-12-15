@@ -42,7 +42,7 @@ const MobileMenu = () => {
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
                 <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                  <i className="feather-mail"></i>info@skillersity.com
                 </Link>
               </li>
               <li>
