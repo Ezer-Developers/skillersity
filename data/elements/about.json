@@ -53,9 +53,9 @@
   "aboutTwo": [
     {
       "tag": "KNOW ABOUT US",
-      "title": "Know About Histudy",
-      "subTitle": " Learning Platform",
-      "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+      "title": "Unlock Your Potential with",
+      "subTitle": " Real-World Digital Skills",
+      "desc": "At SKILLESITY, we empower students with practical, hands-on learning and industry tools to excel in the digital world. Our courses blend foundational knowledge with advanced skills, preparing you for real-world challenges. Join us to unlock your potential and transform your career!",
       "images": [
         {
           "id": 1,
@@ -81,16 +81,16 @@
       ],
       "children": [
         {
-          "title": "Flexible Classes",
+          "title": "Practical Hands-On Learning",
           "icon": "feather-heart",
           "isPrimary": false,
-          "info": "It is a long established fact that a reader will be distracted by this on readable content of when looking at its layout."
+          "info": "Each course emphasizes real-world applications through practical assignments and final projects, ensuring that students gain hands-on experience with industry-standard tools and techniques."
         },
         {
-          "title": "Learn From Anywhere",
+          "title": "Comprehensive Skill Development",
           "icon": "feather-book",
           "isPrimary": true,
-          "info": "Sed distinctio repudiandae eos recusandae laborum eaque non eius iure suscipit laborum eaque non eius iure suscipit."
+          "info": "The curriculum covers both foundational knowledge and advanced skills, allowing students to build a strong base while also mastering specialized tools and techniques in their respective fields."
         }
       ]
     }
