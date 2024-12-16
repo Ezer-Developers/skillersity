@@ -80,7 +80,7 @@ const SideNav = () => {
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
                 <a href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
+                  <i className="feather-mail"></i>info@skillersity.com
                 </a>
               </li>
               <li>

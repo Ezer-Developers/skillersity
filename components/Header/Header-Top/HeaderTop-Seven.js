@@ -28,12 +28,12 @@ const HeaderTopSeven = ({ gapSpaceBetween, bgColor, flexDirection }) => {
                       </li>
                       <li>
                         <a href="mailto:hello@example.com">
-                          <i className="feather-mail"></i>example@gmail.com
+                          <i className="feather-mail"></i>info@skillersity.com
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="feather-phone"></i>+1-202-555-0174
+                          <i className="feather-phone"></i>+91 81380 60010
                         </a>
                       </li>
                     </ul>

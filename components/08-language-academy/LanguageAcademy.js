@@ -6,6 +6,12 @@ import React, { useEffect } from "react";
 import sal from "sal.js";
 
 import CourseDetails from "../../data/course-details/courseData.json";
+import Card from "../Cards/Card";
+import TestimonialSeven from "../Testimonials/Testimonial-Seven"
+import BrandOne from "../Brand/Brand-One";
+import TeamThree from "../Team/TeamThree"
+import SplitTwo from "../Split/Split-Two";
+import Newsletter from "../Newsletters/Newsletter";
 
 import client1 from "../../public/images/testimonial/client-04.png";
 import client2 from "../../public/images/testimonial/client-05.png";
@@ -38,14 +44,12 @@ const LanguageAcademy = ({ blogs }) => {
                   <div className="inner">
                     <div className="section-title text-start">
                       <span className="subtitle bg-primary-opacity">
-                        EDUCATION FOR EVERYONE
+                        Welcome to SKILLESITY
                       </span>
                     </div>
                     <h1 className="title">
-                      Innovative
-                      <span className="theme-gradient">Language Academic</span>
-                      Platform for Your Career.
-                    </h1>
+                      Advancing
+                      <span className="theme-gradient"> Your Career with</span> Practical Learning</h1>
                     <div className="rbt-like-total">
                       <div className="profile-share">
                         <Link
@@ -164,7 +168,7 @@ const LanguageAcademy = ({ blogs }) => {
         </div>
       </div>
 
-      <div className="rbt-course-card-area rbt-section-gap bg-color-white">
+      {/* <div className="rbt-course-card-area rbt-section-gap bg-color-white">
         <div className="container">
           <div className="row align-items-center mb--60">
             <div className="col-lg-12">
@@ -172,9 +176,9 @@ const LanguageAcademy = ({ blogs }) => {
                 <span className="subtitle bg-pink-opacity">
                   Our Language Courses
                 </span>
-                <h2 className="title">Language Courses</h2>
+                <h2 className="title">Our Professional Courses</h2>
                 <p className="description has-medium-font-size mt--20">
-                  Language Academy Courses?
+                  Scale up your career supereasy with advanced tools.
                 </p>
               </div>
             </div>
@@ -253,34 +257,131 @@ const LanguageAcademy = ({ blogs }) => {
               ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="rbt-counterup-area rbt-section-gapBottom bg-gradient-1">
-        <div className="container">
-          <div className="row mb--60">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <span className="subtitle bg-primary-opacity">
-                  Why Choose Us
-                </span>
-                <h2 className="title">Why Choose Histudy</h2>
-                <p className="description has-medium-font-size mt--20 mb--0">
-                  Language Academic?
-                </p>
-              </div>
-            </div>
-          </div>
-          <Counter head={false} />
-        </div>
-      </div>
-
-      <div className="rbt-about-area about-style-1 rbt-section-gapTop pb--30 pb_md--80 pb_sm--80 bg-color-white">
+      <div className="rbt-about-area bg-color-white rbt-section-gapTop pb_md--80 pb_sm--80 about-style-1">
         <div className="container">
           <ParallaxProvider>
             <AboutTwo />
           </ParallaxProvider>
         </div>
       </div>
+
+      <main className="rbt-main-wrapper">
+        <div className="rbt-course-area bg-color-extra2 rbt-section-gap">
+          <div className="container">
+            <div className="row mb--60">
+              <div className="col-lg-12">
+                <div className="section-title text-center">
+                  <span className="subtitle bg-secondary-opacity">
+                    Top Popular Course
+                  </span>
+                  <h2 className="title">
+                    Histudy Course student <br /> can join with us.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div className="row row--15">
+              <Card
+                col="col-lg-4 col-md-6 col-sm-6 col-12"
+                mt="mt--30"
+                start={0}
+                end={3}
+                isDesc={true}
+                isUser={true}
+              />
+            </div>
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="load-more-btn mt--60 text-center">
+                  <Link
+                    className="rbt-btn btn-gradient btn-lg hover-icon-reverse"
+                    href="#">
+                    <span className="icon-reverse-wrapper">
+                      <span className="btn-text">Load More Course (40)</span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                      <span className="btn-icon">
+                        <i className="feather-arrow-right"></i>
+                      </span>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rbt-counterup-area bg-color-extra2 rbt-section-gapBottom">
+          <div className="container">
+            <Counter isDesc={false} />
+          </div>
+        </div>
+
+        <div className="rbt-about-area bg-color-white pb_md--80 pb_sm--80 about-style-1" style={{ paddingTop: "40px" }}>
+          <div className="container">
+            <SplitTwo />
+          </div>
+        </div>
+
+        <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+          <div className="wrapper">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-title text-center mb--10">
+                    <span className="subtitle bg-primary-opacity">
+                      EDUCATION FOR EVERYONE
+                    </span>
+                    <h2 className="title">
+                      People like histudy education. <br /> No joking - here’s
+                      the proof!
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <TestimonialSeven />
+        </div>
+
+        <div className="rbt-brand-area bg-color-white rbt-section-gap">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-12">
+                <div className="section-title text-center mb--40">
+                  <span className="theme-gradient d-block small-title w-600 mb--10">
+                    Trusted by over 13,400 great teams
+                  </span>
+                  <p>
+                    Leading companies use the same courses to help employees keep
+                    their skills fresh.
+                  </p>
+                </div>
+                <BrandOne />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="rbt-team-area bg-color-white rbt-section-gap">
+          <div className="container">
+            <div className="row mb--60">
+              <div className="col-lg-12">
+                <div className="section-title text-center">
+                  <span className="subtitle bg-primary-opacity">
+                    Our Teacher
+                  </span>
+                  <h2 className="title">Whose Inspirations You</h2>
+                </div>
+              </div>
+            </div>
+            <TeamThree />
+          </div>
+        </div>
+      </main>
 
       <div
         className="rbt-countdown-area bg_image bg_image--6 bg_image_fixed rbt-section-gap"
@@ -289,6 +390,9 @@ const LanguageAcademy = ({ blogs }) => {
         <div className="container">
           <CountDownTwo />
         </div>
+      </div>
+      <div className="rbt-section-gap">
+        <Newsletter />
       </div>
 
       <div className="rbt-rbt-blog-area rbt-section-gap bg-gradient-1">

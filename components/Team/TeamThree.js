@@ -10,7 +10,7 @@ const TeamThree = () => {
   return (
     <>
       <div className="container">
-        <TeamHead title="Team (Modern)." desc="Modern Circle Style." />
+        {/* <TeamHead title="Team (Modern)." desc="Modern Circle Style." /> */}
 
         <div className="row row--15 mt_dec--30">
           {TeamData &&

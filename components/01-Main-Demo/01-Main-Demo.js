@@ -31,7 +31,6 @@ const MainDemo = ({ blogs }) => {
         <div className="rbt-banner-area rbt-banner-1">
           <MainDemoBanner />
         </div>
-
         <div className="rbt-categories-area bg-color-white rbt-section-gapBottom">
           <div className="container">
             <div className="row">
