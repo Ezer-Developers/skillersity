@@ -2,14 +2,14 @@
   "contactOne": [
     {
       "title": "Contact Phone Number",
-      "numOne": "+444 555 666 777",
-      "numTwo": "+222 222 222 333",
+      "numOne": "+91 81380 60010",
+      "numTwo": "",
       "icon": "feather-headphones",
       "address": ""
     },
     {
       "title": "Our Email Address",
-      "mailOne": "admin@gmail.com",
+      "mailOne": "",
       "mailTwo": "info@skillersity.com",
       "icon": "feather-mail",
       "numOne": "",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Our Location",
-      "address": "5678 Bangla Main Road, cities 580 GBnagla, example 54786",
+      "address": "Panadans, University Road, Kalamassery, Kochi, Kerala 682022",
       "icon": "feather-map-pin",
       "numOne": "",
       "numTwo": ""
