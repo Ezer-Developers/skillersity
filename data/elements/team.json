@@ -9,164 +9,62 @@
           "img": "/images/team/team-01.jpg",
           "name": "Shamil M",
           "type": "CEO/Founder",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
+          "location": "",
+          "desc": "",
+          "descTwo": "",
+          "phone": "",
+          "email": "shamil@skillersity.com"
         }
       ]
     },
     {
       "img": "/images/team/team-02.jpg",
       "isLarge": true,
-      "isActive": false,
+      "isActive": true,
       "details": [
         {
           "img": "/images/team/team-02.jpg",
-          "name": "Christopher",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
+          "name": "Mohammed Ambalan",
+          "type": "CMO",
+          "location": "",
+          "desc": "",
+          "descTwo": "",
+          "phone": "",
+          "email": "ambalan@skillersity.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-03.jpg",
+      "img": "/images/team/team-02.jpg",
       "isLarge": true,
-      "isActive": false,
+      "isActive": true,
       "details": [
         {
-          "img": "/images/team/team-03.jpg",
-          "name": "Robert Song",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
+          "img": "/images/team/team-02.jpg",
+          "name": "Mudassir Nazar",
+          "type": "Creative Director",
+          "location": "",
+          "desc": "",
+          "descTwo": "",
+          "phone": "",
+          "email": "mudassir@skillersity.com"
         }
       ]
     },
     {
-      "img": "/images/team/team-04.jpg",
+      "img": "/images/team/team-02.jpg",
       "isLarge": true,
-      "isActive": false,
+      "isActive": true,
       "details": [
         {
-          "img": "/images/team/team-04.jpg",
-          "name": "William Susan",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-05.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-05.jpg",
-          "name": "Soseph Sara",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-06.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-06.jpg",
-          "name": "Thomas Dal",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-07.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-07.jpg",
-          "name": "Irma J. Erwin",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-08.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-08.jpg",
-          "name": "John Due",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-09.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-09.jpg",
-          "name": "Joo Bieden",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
-        }
-      ]
-    },
-    {
-      "img": "/images/team/team-10.jpg",
-      "isLarge": false,
-      "isActive": false,
-      "details": [
-        {
-          "img": "/images/team/team-10.jpg",
-          "name": "Alejandro",
-          "type": "English Teacher",
-          "location": "CO Miego, AD,USA",
-          "desc": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "descTwo": "You can run Histudy easily. Any School, University, College can be use this histudy education template for their educational purpose. A university can be success you.",
-          "phone": "+91 81380 60010",
-          "email": "info@skillersity.com"
+          "img": "/images/team/team-02.jpg",
+          "name": "Christin P J",
+          "type": "Digital Marketing Professional",
+          "location": "",
+          "desc": "",
+          "descTwo": "",
+          "phone": "",
+          "email": "christin@skillersity.com"
         }
       ]
     }

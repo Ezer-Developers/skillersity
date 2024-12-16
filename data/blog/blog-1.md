@@ -1,9 +1,10 @@
 ---
 id: 1
-title: "How to Analyze Your Best Pages for SEO Performance" 
+title: "SEO as a Career: Unlocking Your Potential in the Digital Era" 
 titleTwo: "Every year, app and game education: Apps"
-desc: "It is a long established fact that a reader."
-descOne: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered strike out text alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum." 
+desc: "By Skillersity Team | December 2024 | 5 Mins Read"
+descOne: "In today’s digital-first world, businesses are in a relentless race to dominate search engine rankings. SEO, or Search Engine Optimization, has emerged as a powerful career path, helping professionals drive visibility, traffic, and growth for companies across industries. But is SEO the right career for you?
+At Skillersity, we aim to demystify SEO’s potential and guide you through its opportunities, challenges, and career pathways. Let’s dive in!" 
 descTwo: "eight app and game developers receiving an Apple Design Award, each one selected for being thoughtful and creative. Apple Design Award winners bring distinctive new ideas to life and demonstrate deep mastery of Apple technology."
 descThree: "Apple today named eight app and game developers receiving an Apple Design Award, each one selected for being thoughtful and creative. Apple Design Award winners bring distinctive new ideas to life and demonstrate deep mastery of Apple technology. The apps spring up from developers large and small, in every part of the world, and provide users with new ways of working."
 descFour: "developers demonstrate exceptional craftsmanship and we’re honoring the best of the best,” said Ron Okamoto, Apple’s vice president of Worldwide Developer Relations. “Receiving an Apple Design Award is a special and laudable accomplishment."

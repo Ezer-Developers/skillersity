@@ -29,7 +29,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                      Join with Us<br /> for the next step.
                     </h2>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ const ContactPage = () => {
           <div className="rbt-google-map bg-color-white rbt-section-gapTop">
             <iframe
               className="w-100"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6303677357487!2d76.33133351022508!3d10.047329090019096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d8ad2436683%3A0x39e1ac3beda45ba3!2sEVOXIGN%20Technologies%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1734332234617!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6303677357487!2d76.33133351022505!3d10.047329090019096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d8ad2436683%3A0x39e1ac3beda45ba3!2sEVOXIGN%20Technologies%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1734350268377!5m2!1sen!2sin"
               height="600"
               style={{ border: "0" }}
             ></iframe>
