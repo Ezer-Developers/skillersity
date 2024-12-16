@@ -102,6 +102,11 @@ const Nav = () => {
             </div>
           </div>
         </li>
+
+        <li>
+          <Link className="position-static" href="/about-us-01">About Us</Link>
+        </li>
+
         <li className="has-dropdown has-menu-child-item">
           <Link
             className={`${activeMenuItem === "dashboard" ? "open" : ""}`}

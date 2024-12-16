@@ -20,7 +20,6 @@ import client4 from "../../public/images/testimonial/client-12.png";
 import languageClub from "../../public/images/banner/language-club.png";
 
 import CategoryFour from "../Category/CategoryFour";
-import Counter from "../Counters/Counter";
 import AboutTwo from "../Abouts/About-Two";
 import CountDownTwo from "../Counters/CountDownTwo";
 import { ParallaxProvider } from "react-scroll-parallax";
@@ -314,11 +313,11 @@ const LanguageAcademy = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-counterup-area bg-color-extra2 rbt-section-gapBottom">
+        {/* <div className="rbt-counterup-area bg-color-extra2 rbt-section-gapBottom">
           <div className="container">
             <Counter isDesc={false} />
           </div>
-        </div>
+        </div> */}
 
         <div className="rbt-about-area bg-color-white pb_md--80 pb_sm--80 about-style-1" style={{ paddingTop: "40px" }}>
           <div className="container">

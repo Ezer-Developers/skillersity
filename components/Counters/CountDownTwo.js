@@ -10,16 +10,15 @@ const CountDownTwo = () => {
             <div className="section-title text-start">
               <span className="subtitle bg-white-opacity">Why Choose Us</span>
               <h2 className="title color-white">
-                Free Resources Learning English for Beginner
+                Free Resources Learning for Beginners
               </h2>
               <p className="description has-medium-font-size mt--20 mb--0 color-white opacity-7">
-                Learning new technology, data sience, university, communicate to
-                global world and build a bright future with our histudy.
+                Get eligible for a free basic course to start your journey. Free? Yes it's absolutely free.
               </p>
             </div>
             <div className="countdown-style-1 mt--50">
-              <div className="countdown" data-date="2025-12-30">
-                <CountDown targetDate="2025-12-30" targetTime="18:00:00" />
+              <div className="countdown" data-date="2025-1-30">
+                <CountDown targetDate="2024-12-30" targetTime="18:00:00" />
               </div>
             </div>
           </div>
