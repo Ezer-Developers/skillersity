@@ -14,7 +14,7 @@ const TeamThree = () => {
 
         <div className="row row--15 mt_dec--30">
           {TeamData &&
-            TeamData.team.slice(0, 3).map((data, index) => (
+            TeamData.team.slice(0, 6).map((data, index) => (
               <div className="col-lg-4 col-md-6 col-12 mt--30" key={index}>
                 {data.details.map((item, innerIndex) => (
                   <div
