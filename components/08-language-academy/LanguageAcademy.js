@@ -325,7 +325,7 @@ const LanguageAcademy = ({ blogs }) => {
           </div>
         </div>
 
-        <div className="rbt-testimonial-area bg-color-white rbt-section-gap overflow-hidden">
+        <div className="rbt-testimonial-area bg-color-white-alt rbt-section-gap overflow-hidden">
           <div className="wrapper">
             <div className="container">
               <div className="row">
