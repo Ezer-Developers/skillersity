@@ -113,19 +113,19 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
         ) : (
           ""
         )}
-
+        <p>{matchedBlog.subdesc}</p>
+        <h4>{matchedBlog.titleOne}</h4>
         <p>{matchedBlog.descOne}</p>
 
         <blockquote
-          className={`${
-            isQuote
+          className={`${isQuote
               ? "rbt-blockquote mt--0 alignwide square rbt-border-none bg-color-gray-light"
               : "wp-block-quote"
-          }`}
+            }`}
         >
           <p>{matchedBlog.quote}</p>
           <cite>
-            <Link href="https://themeforest.net/user/rainbow-themes/portfolio">
+            <Link href="#">
               {matchedBlog.city}
             </Link>
           </cite>
@@ -156,25 +156,24 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
           </div>
         )}
 
-        <h4>{matchedBlog.title}</h4>
-
         <p>
           <Link href="#">{matchedBlog.linkOne}</Link> {matchedBlog.descTwo}
         </p>
 
-        <p>{matchedBlog.descThree}</p>
-
         <h4>{matchedBlog.titleTwo}</h4>
+        <p>{matchedBlog.descTwo}</p>
+        <p>{matchedBlog.toolsTwo}</p>
 
         <p>
           <Link href="#">{matchedBlog.linkTwo}</Link> {matchedBlog.descSaven}
         </p>
+        <p>{matchedBlog.descEight}</p>
 
         <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
           <figure>
-            {matchedBlog.addImg && (
+            {matchedBlog.addImgOne && (
               <Image
-                src={matchedBlog.addImg}
+                src={matchedBlog.addImgOne}
                 width={1085}
                 height={645}
                 priority
@@ -185,18 +184,100 @@ const BlogDetails = ({ matchedBlog, isSlider, isQuote, isAudio, isVideo }) => {
             <figcaption>{matchedBlog.caption}</figcaption>
           </figure>
         </div>
+        <h4>{matchedBlog.titleThree}</h4>
+        <p>{matchedBlog.descThree}</p>
+        <p>{matchedBlog.toolsThree}</p>
+        <h4>{matchedBlog.titleFour}</h4>
+        <p>{matchedBlog.descFour}</p>
+        <p>{matchedBlog.toolsFour}</p>
 
+        <div className="post-thumbnail mb--30 position-relative wp-block-image alignwide">
+          <figure>
+            {matchedBlog.addImgTwo && (
+              <Image
+                src={matchedBlog.addImgTwo}
+                width={1085}
+                height={645}
+                priority
+                alt="Blog Images"
+              />
+            )}
+
+            <figcaption>{matchedBlog.caption}</figcaption>
+          </figure>
+        </div>
+        <h4>{matchedBlog.titleFive}</h4>
         <p>{matchedBlog.descFive}</p>
-        <h4>{matchedBlog.titleTwo}</h4>
+        <p>{matchedBlog.toolsFive}</p>
+        <p>{matchedBlog.tipFive}</p>
 
+        <h4>{matchedBlog.titleSix}</h4>
         <p>
           {matchedBlog.descSix}
           <Link href="#">{matchedBlog.linkThree}</Link>.
         </p>
+        <p>{matchedBlog.useSix}</p>
+        <p>{matchedBlog.toolsSix}</p>
+        <h4>{matchedBlog.titleSeven}</h4>
+        <p>{matchedBlog.descSeven}</p>
+        <p>{matchedBlog.toolsSeven}</p>
 
-        <p>
+        {/* <p>
           <Link href="#">{matchedBlog.linkTwo}</Link> {matchedBlog.descFive}
-        </p>
+        </p> */}
+
+        <div className="wp-block-gallery columns-3 is-cropped">
+          <ul className="blocks-gallery-grid">
+            {matchedBlog &&
+              matchedBlog.gallery.map((item, innerIndex) => (
+                <li className="blocks-gallery-item" key={innerIndex}>
+                  <figure>
+                    {item.galleryImg && (
+                      <Image
+                        className="radius-4"
+                        src={item.galleryImg}
+                        width={255}
+                        height={143}
+                        priority
+                        alt="Blog Images"
+                      />
+                    )}
+                  </figure>
+                </li>
+              ))}
+          </ul>
+        </div>
+
+        <h4>{matchedBlog.titleEight}</h4>
+        <p>{matchedBlog.descEight}</p>
+        <p>{matchedBlog.toolsEight}</p>
+
+        <h4>{matchedBlog.titleNine}</h4>
+        <p>{matchedBlog.descNine}</p>
+        <p>{matchedBlog.toolsNine}</p>
+
+        <h4>{matchedBlog.titleTen}</h4>
+        <p>{matchedBlog.descTen}</p>
+        <p>{matchedBlog.toolsTen}</p>
+
+        <h4>{matchedBlog.titleEleven}</h4>
+        <p>{matchedBlog.descEleven}</p>
+        <p>{matchedBlog.toolsEleven}</p>
+
+        <h4>{matchedBlog.titleTwelve}</h4>
+        <p>{matchedBlog.descTwelve}</p>
+        <p>{matchedBlog.toolsTwelve}</p>
+
+        <h4>{matchedBlog.titleThisteen}</h4>
+        <p>{matchedBlog.descThirteen}</p>
+        <p>{matchedBlog.toolsThirteen}</p>
+
+        <h4>{matchedBlog.titleFourteen}</h4>
+        <p>{matchedBlog.descFourteen}</p>
+        <p>{matchedBlog.tipFourteen}</p>
+
+        <h4>{matchedBlog.titleConclusion}</h4>
+        <p>{matchedBlog.descConclusion}</p>
 
         <div className="tagcloud">
           {matchedBlog &&

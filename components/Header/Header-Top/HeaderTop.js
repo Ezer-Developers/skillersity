@@ -30,7 +30,7 @@ const HeaderTop = () => {
                     <div className="right-button">
                       <Link
                         className="rbt-btn-link color-white text-decoration-none"
-                        href="https://themeforest.net/checkout/from_item/42846507?license=regular"
+                        href=""
                       >
                         <span>
                           Purchase Now
