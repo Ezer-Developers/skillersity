@@ -12932,7 +12932,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   background-color: var(--color-white);
   padding: 0 25px;
   border-radius: var(--radius);
-  box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-9);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

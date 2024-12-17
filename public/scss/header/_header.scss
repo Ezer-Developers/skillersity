@@ -222,13 +222,13 @@
 
         .rbt-header-top {
             &:not(.bg-not-transparent) {
-                background: transparent !important;
+                background: var(--color-white) !important;
             }
         }
 
         .rbt-header-wrapper {
             &:not(.bg-not-transparent) {
-                background: transparent !important;
+                // background: transparent !important;
                 box-shadow: none;
             }
 
