@@ -31,20 +31,14 @@ const Nav = () => {
         <li className="position-static">
           <Link href="/"> Home </Link>
         </li>
+
         <li className="with-megamenu has-menu-child-item">
-          <Link
-            className={`${activeMenuItem === "courses" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("courses")}
-          >
-            Courses
+          <Link className={`${activeMenuItem === "courses" ? "open" : ""}`} href="#" onClick={() => toggleMenuItem("courses")}>Courses
             <i className="feather-chevron-down"></i>
           </Link>
-
           <div
             className={`rbt-megamenu grid-item-2 ${activeMenuItem === "courses" ? "active d-block" : ""
-              }`}
-          >
+              }`} >
             <div className="wrapper">
               {MenuData &&
                 MenuData.menuData.map((data, index) => {
@@ -102,58 +96,11 @@ const Nav = () => {
             </div>
           </div>
         </li>
-
         <li>
           <Link className="position-static" href="/about-us-01">About Us</Link>
         </li>
-
-        <li className="has-dropdown has-menu-child-item">
-          <Link
-            className={`${activeMenuItem === "dashboard" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("dashboard")}
-          >
-            Dashboard
-            <i className="feather-chevron-down"></i>
-          </Link>
-          <ul
-            className={`submenu ${activeMenuItem === "dashboard" ? "active d-block" : ""
-              }`}
-          >
-            {MenuData &&
-              MenuData.menuData.map((data, index) => {
-                if (data.menuType === "default-dropdown") {
-                  const elements = data.menuItems?.map((value, innerIndex) => (
-                    <li className="has-dropdown" key={innerIndex}>
-                      <Link href="#">{value.title}</Link>
-                      <ul className="submenu">
-                        {value.submenuItems?.map(
-                          (submenuItem, submenuItemIndex) => (
-                            <li key={submenuItemIndex}>
-                              <Link
-                                className={
-                                  isActive(submenuItem.link) ? "active" : ""
-                                }
-                                href={submenuItem.link}
-                              >
-                                {submenuItem.title}
-                              </Link>
-                            </li>
-                          )
-                        )}
-                      </ul>
-                    </li>
-                  ));
-                  return elements;
-                }
-                return null;
-              })}
-          </ul>
-        </li>
         <li className="position-static">
-          <Link
-            href="/contact"> Contact Us
-          </Link>
+          <Link href="/contact">Contact Us</Link>
         </li>
         <li className="with-megamenu has-menu-child-item position-static">
           <Link href="/blog-grid"> Blog </Link>

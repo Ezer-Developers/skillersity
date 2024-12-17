@@ -47,7 +47,7 @@
                 }
                 &.active {
                     background-size: 300% 100%;
-                    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary));
+                    background-image: linear-gradient(to right, #567C8D, #cdcdcd, #cdcdcd, #567C8D);
                     color: var(--color-white);
                 }
             }
@@ -79,14 +79,14 @@
                 font-weight: 500;
                 font-size: 50px;
                 line-height: 1.2;
-                color: var(--color-primary);
+                color: #567C8D;
                 display: inline-block;
                 @media #{$sm-layout} {
                     font-size: 36px;
                 }
             }
             .duration {
-                color: var(--color-primary);
+                color: #567C8D;
                 font-size: 16px;
                 font-weight: 500;
                 text-transform: capitalize;
@@ -203,7 +203,7 @@
 }
 
 .pricing-badge {
-    background: var(--color-secondary);
+    background: #cdcdcd;
     padding: 0 17px;
     position: absolute;
     right: 0;

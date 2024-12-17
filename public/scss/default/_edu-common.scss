@@ -77,7 +77,7 @@
 
     &:hover,
     &.open {
-        color: var(--color-primary);
+        color: #567C8D;
 
         &::after {
             opacity: 1;
@@ -146,7 +146,7 @@
 -------------------------------*/
 
 .theme-gradient {
-    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    background: linear-gradient(90deg, #567C8D, #cdcdcd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-background-clip: text;
@@ -154,7 +154,7 @@
 }
 
 %theme-gradient {
-    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    background: linear-gradient(90deg, #567C8D, #cdcdcd);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-background-clip: text;
@@ -253,7 +253,7 @@
         width: 500px;
         height: 500px;
         border-radius: 1000px;
-        background-image: linear-gradient(45deg, var(--color-primary), var(--color-secondary));
+        background-image: linear-gradient(45deg, #567C8D, #cdcdcd);
         opacity: 0.2;
         filter: blur(100px);
         content: "";
@@ -272,7 +272,7 @@
         top: -250px;
         right: -250px;
         bottom: auto;
-        background-image: linear-gradient(45deg, var(--color-violet), var(--color-pink));
+        background-image: linear-gradient(45deg, #567C8D, #c4c2c2);
     }
 }
 
@@ -416,7 +416,7 @@
             @extend %transition;
 
             &:hover {
-                color: var(--color-primary);
+                color: #567C8D;
             }
         }
     }
@@ -471,15 +471,15 @@ hr {
 }
 
 .border-bottom-4 {
-    border-bottom: 4px solid var(--color-primary);
+    border-bottom: 4px solid #567C8D;
 }
 
 .border-top-bar-primary-color {
-    border-top: 5px solid var(--color-primary);
+    border-top: 5px solid #567C8D;
 }
 
 .border-top-bar-secondary-color {
-    border-top: 5px solid var(--color-secondary);
+    border-top: 5px solid #cdcdcd;
 }
 
 .rbt-separator {
@@ -499,11 +499,11 @@ hr {
 // Border Color
 
 .border-color-primary {
-    border-color: var(--color-primary);
+    border-color: #567C8D;
 }
 
 .border-color-secondary {
-    border-color: var(--color-secondary);
+    border-color: #cdcdcd;
 }
 
 .border-color-coral {
@@ -784,7 +784,7 @@ hr {
     .rbt-edit-photo {
         background: var(--color-gray-light);
         border-radius: 100%;
-        color: var(--color-primary);
+        color: #567C8D;
         width: 100%;
         height: 100%;
         padding: 0;
@@ -792,7 +792,7 @@ hr {
         transition: 0.3s;
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
             color: var(--color-white);
         }
     }

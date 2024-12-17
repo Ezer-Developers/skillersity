@@ -875,10 +875,11 @@
     .rbt-information-list {
         li {
             a {
-                color: var(--color-white-dark);
+                color: #000000;
 
                 &:hover {
-                    color: var(--color-white);
+                    color: var #567C8D;
+                    font-weight: 500;
                 }
             }
         }
@@ -996,7 +997,7 @@
     ul.rbt-dropdown-menu>li>a,
     .rbt-search-with-category .search-field .serach-btn,
     .rbt-secondary-menu li a {
-        color: var(--color-white-dark);
+        color: var(--color-primary);
     }
 
     .rbt-header {

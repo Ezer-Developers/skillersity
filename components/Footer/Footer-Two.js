@@ -65,7 +65,7 @@ const FooterTwo = () => {
                     <Link
                       className="mx-2"
                       target="_blank"
-                      href="https://themeforest.net/user/rbt-themes/portfolio"
+                      href=""
                     >
                       Rainbow-Themes
                     </Link>

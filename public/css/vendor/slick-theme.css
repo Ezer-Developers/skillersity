@@ -171,7 +171,7 @@
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
 {
-    color: var(--color-secondary);
+    color: #cdcdcd;
     font-size: 15px;
 }
 .slick-dots li button:before
@@ -193,6 +193,6 @@
 }
 .slick-dots li.slick-active button:before
 {
-    color: var(--color-secondary);
+    color: #cdcdcd;
     font-size: 15px;
 }

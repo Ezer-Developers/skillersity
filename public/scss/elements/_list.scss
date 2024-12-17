@@ -60,7 +60,7 @@
             background: var(--color-white);
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             border-radius: 100%;
-            color: var(--color-primary);
+            color: #567C8D;
             display: inline-block;
             line-height: 29px;
             margin-right: 10px;
@@ -129,7 +129,7 @@
         li {
             i {
                 background: var(--primary-opacity) !important;
-                color: var(--color-primary) !important;
+                color: #567C8D !important;
             }
         }
     }
@@ -216,7 +216,7 @@
                 color: var(--color-white-off);
                 i {
                     background: var(--primary-opacity);
-                    color: var(--color-primary);
+                    color: #567C8D;
                 }
             }
         }

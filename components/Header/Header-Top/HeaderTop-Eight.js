@@ -102,11 +102,11 @@ const HeaderTopEight = ({
                               <i className="fab fa-facebook-f"></i>
                             </Link>
                           </li>
-                          <li>
+                          {/* <li>
                             <Link href="#">
                               <i className="fab fa-twitter"></i>
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="#">
                               <i className="fab fa-linkedin-in"></i>

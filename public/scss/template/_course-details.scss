@@ -27,7 +27,7 @@
                 display: block;
             }
             &.active {
-                color: var(--color-primary);
+                color: #567C8D;
             }
         }
         &:first-child {
@@ -307,9 +307,9 @@
 
                 &.active {
                     background: var(--color-white);
-                    color: var(--color-primary);
+                    color: #567C8D;
                     i {
-                        color: var(--color-primary);
+                        color: #567C8D;
                     }
                 }
             }

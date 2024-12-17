@@ -84,7 +84,7 @@ const UdemyAffiliate = () => {
             <div className="col-lg-12">
               <div className="section-title text-center mb--40">
                 <span className="theme-gradient d-block small-title w-600 mb--10">
-                  Trusted by over 13,400 great teams
+                  Trusted by over 100 great teams
                 </span>
                 <p>
                   Leading companies use the same courses to help employees keep

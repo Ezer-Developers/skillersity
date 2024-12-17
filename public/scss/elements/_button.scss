@@ -23,7 +23,7 @@ fieldset:disabled {
 
 .rbt-btn {
     padding: 0 26px;
-    background: var(--color-primary);
+    background: #567C8D;
     height: 60px;
     line-height: 60px;
     color: var(--color-white);
@@ -41,10 +41,10 @@ fieldset:disabled {
 
     // Color Varient 
     &.btn-secondary {
-        background: var(--color-secondary);
+        background: #cdcdcd;
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
         }
     }
 
@@ -52,7 +52,7 @@ fieldset:disabled {
         background: var(--color-coral);
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
         }
     }
 
@@ -60,7 +60,7 @@ fieldset:disabled {
         background: var(--color-violet);
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
         }
     }
 
@@ -68,7 +68,7 @@ fieldset:disabled {
         background: var(--color-pink);
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
         }
     }
 
@@ -78,7 +78,7 @@ fieldset:disabled {
         color: var(--color-heading);
 
         &:hover {
-            background: var(--color-primary);
+            background: #567C8D;
             color: var(--color-white);
         }
     }
@@ -91,8 +91,8 @@ fieldset:disabled {
         line-height: 57px;
 
         &:hover {
-            background: var(--color-primary);
-            border-color: var(--color-primary);
+            background: #567C8D;
+            border-color: #567C8D;
             color: var(--color-white);
         }
 
@@ -101,7 +101,7 @@ fieldset:disabled {
             color: var(--color-white-off);
 
             &:hover {
-                border-color: var(--color-primary);
+                border-color: #567C8D;
                 color: var(--color-white);
             }
         }
@@ -112,14 +112,14 @@ fieldset:disabled {
     &.btn-gradient {
         color: var(--color-white);
         background-size: 300% 100%;
-        background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary));
+        background-image: linear-gradient(to right, #567C8D, #cdcdcd, #cdcdcd, #567C8D);
 
         &.btn-gradient-2 {
             background-image: linear-gradient(to right, var(--color-pink), var(--color-violet), var(--color-violet), var(--color-pink));
         }
 
         &.btn-gradient-3 {
-            background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary), var(--color-primary), var(--color-secondary));
+            background-image: linear-gradient(to right, #cdcdcd, #567C8D, #567C8D, #cdcdcd);
         }
 
         &:hover {
@@ -327,8 +327,8 @@ fieldset:disabled {
             border-width: 2px !important;
 
             &:hover {
-                background-color: var(--color-secondary);
-                border-color: var(--color-secondary) !important;
+                background-color: #cdcdcd;
+                border-color: #cdcdcd !important;
             }
         }
 
@@ -345,7 +345,7 @@ fieldset:disabled {
 
         &:hover {
             transform: scale(1.1);
-            background: var(--color-primary);
+            background: #567C8D;
         }
     }
 
@@ -392,7 +392,7 @@ fieldset:disabled {
                 transform: translate(-6px, -9px);
                 border-top: 9px solid transparent;
                 border-bottom: 9px solid transparent;
-                border-left: 15px solid var(--color-primary);
+                border-left: 15px solid #567C8D;
             }
         }
 
@@ -416,14 +416,14 @@ fieldset:disabled {
         }
 
         &.btn-theme-color {
-            background: var(--color-primary);
+            background: #567C8D;
 
             &::after {
-                border-color: var(--color-primary);
+                border-color: #567C8D;
             }
 
             &::before {
-                border-color: var(--color-primary);
+                border-color: #567C8D;
             }
 
             .play-icon {
@@ -434,7 +434,7 @@ fieldset:disabled {
 
             &:hover {
                 color: inherit;
-                background: var(--color-primary);
+                background: #567C8D;
             }
         }
 
@@ -475,7 +475,7 @@ fieldset:disabled {
 
 
     &:hover {
-        background-color: var(--color-secondary);
+        background-color: #cdcdcd;
         color: var(--color-white);
         transform: translate3d(0, -2px, 0);
         box-shadow: var(--shadow-7);
@@ -637,7 +637,7 @@ fieldset:disabled {
     }
 
     &.btn-border-gradient {
-        background: linear-gradient(90deg, #CFA2E8, #637FEA);
+        background: linear-gradient(90deg, #567C8D, #c4c2c2);
         border: none;
         outline: none;
         cursor: pointer;
@@ -688,14 +688,14 @@ a,
 button {
     &.bg-primary-opacity {
         &:hover {
-            background: var(--color-primary) !important;
+            background: #567C8D !important;
             color: var(--color-white) !important;
         }
     }
 
     &.bg-secondary-opacity {
         &:hover {
-            background: var(--color-secondary) !important;
+            background: #cdcdcd !important;
             color: var(--color-white) !important;
         }
     }
@@ -727,7 +727,7 @@ button {
     .rbt-btn {
         &:hover {
             background: var(--color-white);
-            color: var(--color-primary);
+            color: #567C8D;
         }
     }
 }
@@ -756,7 +756,7 @@ button {
         -webkit-background-clip: text !important;
         text-fill-color: transparent !important;
         -webkit-text-fill-color: transparent !important;
-        background: linear-gradient(to right, var(--color-primary) 0%, var(--color-secondary) 100%);
+        background: linear-gradient(to right, #567C8D 0%, #cdcdcd 100%);
         display: inline-block;
         font-size: 16px;
         letter-spacing: 0.5px;
@@ -768,7 +768,7 @@ button {
 
         &::before,
         &::after {
-            background: linear-gradient(to right, var(--color-primary) 0%, var(--color-secondary) 100%);
+            background: linear-gradient(to right, #567C8D 0%, #cdcdcd 100%);
             content: '';
             display: inline-block;
             width: 100%;
@@ -821,7 +821,7 @@ a {
             left: 0;
             display: block;
             border-radius: 28px;
-            background: var(--color-primary);
+            background: #567C8D;
             opacity: 0.5;
             width: 56px;
             height: 56px;
@@ -847,7 +847,7 @@ a {
 
             &::before {
                 width: 100%;
-                background: var(--color-primary);
+                background: #567C8D;
                 opacity: 1;
             }
         }
@@ -889,7 +889,7 @@ span {
         }
 
         &:hover {
-            color: var(--color-primary) !important;
+            color: #567C8D !important;
 
             &::after {
                 width: 100%;

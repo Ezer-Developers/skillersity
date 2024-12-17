@@ -46,14 +46,14 @@
                     }
 
                     &.active {
-                        color: var(--color-primary);
+                        color: #567C8D;
                     }
                 }
 
                 &:hover,
                 &.active {
                     >a {
-                        color: var(--color-primary) !important;
+                        color: #567C8D !important;
 
                         i {
                             transform: rotate(180deg);
@@ -110,12 +110,12 @@
                                 @extend %transition;
 
                                 &:hover {
-                                    color: var(--color-primary) !important;
+                                    color: #567C8D !important;
                                     background: var(--black-opacity);
                                 }
 
                                 &.active {
-                                    color: var(--color-primary) !important;
+                                    color: #567C8D !important;
                                     background: var(--black-opacity);
                                 }
                             }
@@ -199,7 +199,7 @@
 
                                         &:hover,
                                         &.active {
-                                            color: var(--color-primary) !important;
+                                            color: #567C8D !important;
                                             background: var(--black-opacity);
                                         }
                                     }
@@ -272,7 +272,7 @@
                             position: absolute;
                             content: "";
                             left: 0;
-                            background: var(--color-primary);
+                            background: #567C8D;
                             width: 0;
                             height: 2px;
                             bottom: 0;
@@ -291,7 +291,7 @@
 
                     &.current {
                         a {
-                            color: var(--color-primary);
+                            color: #567C8D;
 
                             &::after {
                                 width: 100%;
@@ -353,7 +353,7 @@
     letter-spacing: 0.5px;
 
     &::before {
-        background: linear-gradient(90deg, var(--color-primary) 15%, var(--color-secondary) 45%, var(--color-secondary) 75%, var(--color-primary) 100%) 95%/200% 100%;
+        background: linear-gradient(90deg, #567C8D 15%, #cdcdcd 45%, #cdcdcd 75%, #567C8D 100%) 95%/200% 100%;
         content: "";
         width: 100%;
         height: 100%;
@@ -372,7 +372,7 @@
         bottom: 10px;
         right: 10px;
         opacity: 0.5;
-        background: linear-gradient(90deg, var(--color-primary) 15%, var(--color-secondary) 45%, var(--color-secondary) 75%, var(--color-primary) 100%) 95%/200% 100%;
+        background: linear-gradient(90deg, #567C8D 15%, #cdcdcd 45%, #cdcdcd 75%, #567C8D 100%) 95%/200% 100%;
     }
 }
 
@@ -701,7 +701,7 @@
 
                 span,
                 i {
-                    color: var(--color-primary);
+                    color: #567C8D;
                 }
             }
         }

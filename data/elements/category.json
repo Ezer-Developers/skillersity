@@ -1,23 +1,27 @@
 {
   "categoryItemOne": [
     {
-      "text": "Web Design",
+      "text": "AI Based Digital Marketing",
       "link": "#"
     },
     {
-      "text": "Art",
+      "text": "Digital Marketing Basics",
       "link": "#"
     },
     {
-      "text": "Figma",
+      "text": "Advanced Digital Marketing",
       "link": "#"
     },
     {
-      "text": "Adobe",
+      "text": "Search Engine Optimization",
       "link": "#"
     },
     {
-      "text": "Math",
+      "text": "Social Media Managment",
+      "link": "#"
+    },
+    {
+      "text": "Google Ads",
       "link": "#"
     }
   ],
@@ -45,63 +49,39 @@
   ],
   "categoryItemThree": [
     {
-      "text": "Child List 01",
+      "text": "Course 1",
       "link": "#"
     },
     {
-      "text": "Child List 09",
+      "text": "Course 2",
       "link": "#"
     },
     {
-      "text": "Child List 02",
+      "text": "Course 3",
       "link": "#"
     },
     {
-      "text": "Child List 10",
+      "text": "Course 4",
       "link": "#"
     },
     {
-      "text": "Child List 03",
+      "text": "Course 5",
       "link": "#"
     },
     {
-      "text": "Child List 11",
+      "text": "Course 6",
       "link": "#"
     },
     {
-      "text": "Child List 04",
+      "text": "Course 7",
       "link": "#"
     },
     {
-      "text": "Child List 12",
+      "text": "Course 8",
       "link": "#"
     },
     {
-      "text": "Child List 05",
-      "link": "#"
-    },
-    {
-      "text": "Child List 13",
-      "link": "#"
-    },
-    {
-      "text": "Child List 06",
-      "link": "#"
-    },
-    {
-      "text": "Child List 14",
-      "link": "#"
-    },
-    {
-      "text": "Child List 07",
-      "link": "#"
-    },
-    {
-      "text": "Child List 15",
-      "link": "#"
-    },
-    {
-      "text": "Child List 08",
+      "text": "Course 9",
       "link": "#"
     }
   ]

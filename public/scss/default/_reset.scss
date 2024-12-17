@@ -51,7 +51,7 @@ a:focus,
 a:active {
 	text-decoration: none;
 	outline: none;
-	color: var(--color-primary);
+	color: #567C8D;
 }
 
 a:focus {
@@ -70,7 +70,7 @@ strong {
     font-weight: bold;
 }
 mark {
-    background: var(--color-primary);
+    background: #567C8D;
     color: #ffffff;
 }
 code,
@@ -82,7 +82,7 @@ samp {
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
-    color: var(--color-primary);
+    color: #567C8D;
 }
 kbd ,
 ins{

@@ -32,8 +32,8 @@
         }
 
         & thead {
-            background-color: var(--color-primary);
-            background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary));
+            background-color: #567C8D;
+            background-image: linear-gradient(to right, #567C8D, #cdcdcd, #cdcdcd, #567C8D);
             background-size: 300% 100%;
 
             @media #{$large-mobile} {
@@ -139,7 +139,7 @@
             transition: 0.4s;
 
             &:hover {
-                color: var(--color-primary);
+                color: #567C8D;
             }
         }
     }
@@ -201,7 +201,7 @@
             display: block;
             font-size: 15px;
             font-weight: 600;
-            color: var(--color-primary);
+            color: #567C8D;
         }
     }
 
@@ -302,8 +302,8 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 color: #fff;
-                background-color: var(--color-primary);
-                border-color: var(--color-primary);
+                background-color: #567C8D;
+                border-color: #567C8D;
                 width: 140px;
             }
         }
@@ -329,8 +329,8 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 color: #fff;
-                background-color: var(--color-primary);
-                border-color: var(--color-primary);
+                background-color: #567C8D;
+                border-color: #567C8D;
                 width: 140px;
             }
         }
@@ -420,8 +420,8 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 color: #fff;
-                background-color: var(--color-primary);
-                border-color: var(--color-primary);
+                background-color: #567C8D;
+                border-color: #567C8D;
             }
 
             @media #{$sm-layout} {
