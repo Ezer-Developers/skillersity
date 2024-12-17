@@ -1,8 +1,8 @@
 /*-- Variables --*/
 :root {
     //Themes colors
-    --color-primary: #2f57ef;
-    --color-secondary: #b966e7;
+    --color-primary: #567C8D;
+    --color-secondary: #c4c2c2;
     --color-coral: #E9967A;
     --color-violet: #800080;
     --color-pink: #DB7093;
@@ -10,8 +10,8 @@
     //Themes colors DARK Mode
     --color-darker: #192335;
     --color-white-dark: #D9D9D9;
-    --gradient-dark: linear-gradient(90deg, #2f57efbf 0%, #c586eeab 100%);
-    --gradient-dark-2: linear-gradient(90deg, #2f57ef7d 0%, #c586ee52 100%);
+    --gradient-dark: linear-gradient(90deg, #F5EFEB 0%, #F5EFEB 150%);
+    --gradient-dark-2: linear-gradient(90deg, #567C8D 0%, #c4c2c2 100%);
     --color-primary-100: #323F92;
 
     //Then
@@ -208,7 +208,7 @@
     --gradient-4: linear-gradient(180deg, #EFF1FF 0%, #FFFFFF 100%);
     --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
     --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
-    --gradient-7: linear-gradient(218.15deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+    --gradient-7: linear-gradient(218.15deg, #cdcdcd 0%, #567C8D 100%);
     --gradient-8: linear-gradient(270deg, #9e77ff 0%, #4460ff 100%);
     --gradient-9: linear-gradient(180deg, #6827FF 0%, #E3F0FF 100%);
     --gradient-10: linear-gradient(180deg, #353e54d9 0%, #27304117 100%);

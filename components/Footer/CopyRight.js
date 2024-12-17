@@ -11,9 +11,7 @@ const CopyRight = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <p className="rbt-link-hover text-center text-lg-start">
                 Copyright © 2024
-                <Link href="#">
-                  Rainbow-Themes.
-                </Link>
+                <Link href="#"> Skillersity </Link>
                 All Rights Reserved
               </p>
             </div>

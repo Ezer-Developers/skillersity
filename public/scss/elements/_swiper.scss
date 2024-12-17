@@ -63,7 +63,7 @@
 
         &.swiper-pagination-bullet-active {
             background: transparent;
-            box-shadow: inset 0 0 0 1px var(--color-primary);
+            box-shadow: inset 0 0 0 1px #567C8D;
             transform: scale(2);
             opacity: 1;
         }
@@ -155,9 +155,9 @@
         }
 
         &:hover {
-            background: var(--color-primary);
-            border-color: var(--color-primary);
-            color: var(--color-primary);
+            background: #567C8D;
+            border-color: #567C8D;
+            color: #567C8D;
 
             &::after {
                 transform: scale(1.2);
@@ -238,11 +238,11 @@
 
     &.icon-bg-primary {
         .rbt-swiper-arrow {
-            background: var(--color-primary);
+            background: #567C8D;
             color: var(--color-white);
 
             &::after {
-                background: var(--color-primary);
+                background: #567C8D;
             }
         }
     }

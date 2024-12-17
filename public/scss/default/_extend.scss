@@ -32,7 +32,7 @@
 %bg-gradient-9 {
     position: relative;
     z-index: 1;
-    background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important;
+    background: linear-gradient(270deg, #cdcdcd 0%, #567C8D 100%) !important;
 
     &::after {
         background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 100%);
@@ -80,11 +80,11 @@
 }
 
 .color-primary {
-    color: var(--color-primary) !important;
+    color: #567C8D !important;
 }
 
 .color-secondary {
-    color: var(--color-secondary) !important;
+    color: #cdcdcd !important;
 }
 
 .color-coral {
@@ -134,11 +134,11 @@
 ------------------------*/
 
 .bg-color-primary {
-    background-color: var(--color-primary) !important;
+    background-color: #567C8D !important;
 }
 
 .bg-color-secondary {
-    background-color: var(--color-secondary) !important;
+    background-color: #cdcdcd !important;
 }
 
 .bg-color-coral {
@@ -426,12 +426,12 @@
 
 .bg-primary-opacity {
     background: var(--primary-opacity) !important;
-    color: var(--color-primary) !important;
+    color: #567C8D !important;
 }
 
 .bg-secondary-opacity {
     background: var(--secondary-opacity) !important;
-    color: var(--color-secondary) !important;
+    color: #cdcdcd !important;
 }
 
 .bg-coral-opacity {

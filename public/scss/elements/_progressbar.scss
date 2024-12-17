@@ -32,7 +32,7 @@
         border-radius: 10px;
         width: 0;
         height: 100%;
-        background-color: var(--color-primary);
+        background-color: #567C8D;
         transition: width .5s ease;
         overflow: visible;
 
@@ -61,7 +61,7 @@
         }
 
         &.bar-gradiand {
-            background: radial-gradient(circle farthest-corner at 0% 0%, var(--color-pink) 25%, var(--color-secondary) 45%, var(--color-primary) 65%, var(--color-light-green) 85%);
+            background: radial-gradient(circle farthest-corner at 0% 0%, var(--color-pink) 25%, #cdcdcd 45%, #567C8D 65%, var(--color-light-green) 85%);
         }
     }
 

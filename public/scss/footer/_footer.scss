@@ -82,7 +82,7 @@
                     transition: transform 0.3s;
                 }
                 &:hover {
-                    color: var(--color-primary) !important;
+                    color: #567C8D !important;
                     &:after {
                         transform-origin: bottom left;
                         transform: scaleX(1);
@@ -115,7 +115,7 @@
             a {
                 transition: 0.3s;
                 &:hover {
-                    color: var(--color-primary);
+                    color: #567C8D;
                 }
             }
         }

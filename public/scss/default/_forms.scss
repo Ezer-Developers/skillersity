@@ -78,23 +78,23 @@ textarea {
     }
 
     &.p-holder__active {
-        border-color: var(--color-primary);
+        border-color: #567C8D;
 
         /* -- Placeholder -- */
         &::placeholder {
-            color: var(--color-primary);
+            color: #567C8D;
             /* Firefox */
             opacity: 1;
         }
 
         &:-ms-input-placeholder {
             /* Internet Explorer 10-11 */
-            color: var(--color-primary);
+            color: #567C8D;
         }
 
         &::-ms-input-placeholder {
             /* Microsoft Edge */
-            color: var(--color-primary);
+            color: #567C8D;
         }
     }
 
@@ -124,7 +124,7 @@ textarea {
     }
 
     &:focus {
-        border-color: var(--color-primary);
+        border-color: #567C8D;
     }
 }
 
@@ -204,8 +204,8 @@ input[type="radio"] {
     &:checked {
         ~label {
             &::before {
-                background-color: var(--color-primary);
-                border-color: var(--color-primary);
+                background-color: #567C8D;
+                border-color: #567C8D;
             }
 
             &::after {
@@ -245,8 +245,8 @@ input[type="radio"] {
         margin-bottom: 0;
 
         &:checked {
-            background-color: var(--color-primary);
-            border-color: var(--color-primary);
+            background-color: #567C8D;
+            border-color: #567C8D;
         }
 
         &:focus {
@@ -275,7 +275,7 @@ input[type="radio"] {
     color: var(--color-white-off);
 
     &:hover {
-        color: var(--color-primary);
+        color: #567C8D;
     }
 }
 
@@ -309,7 +309,7 @@ input[type="radio"] {
         width: 100%;
 
         &:focus {
-            border-color: var(--color-primary);
+            border-color: #567C8D;
         }
     }
 
@@ -325,7 +325,7 @@ input[type="radio"] {
         width: 100%;
 
         &:focus {
-            border-color: var(--color-primary);
+            border-color: #567C8D;
         }
     }
 }
@@ -387,7 +387,7 @@ textarea {
     .react-select__option--is-selected,
     .react-select__option--is-focused {
         background-color: var(--black-opacity);
-        color: var(--color-primary);
+        color: #567C8D;
     }
 }
 
@@ -402,8 +402,8 @@ input[type="submit"] {
     display: block;
     font-weight: 500;
     transition: 0.3s;
-    border: var(--border-width) solid var(--color-primary);
-    background: var(--color-primary);
+    border: var(--border-width) solid #567C8D;
+    background: #567C8D;
     color: #ffffff;
     height: 60px;
     margin-top: 30px;

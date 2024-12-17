@@ -115,11 +115,11 @@
 .ui-widget-content {
     background: var(--color-gray-lighter) none repeat scroll 0 0;
     border: 0 none;
-    color: var(--color-primary);
+    color: #567C8D;
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-    background: var(--color-primary) none repeat scroll 0 0;
+    background: #567C8D none repeat scroll 0 0;
 }
 
 .ui-slider-horizontal {
@@ -146,13 +146,13 @@
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-    background: var(--color-primary) none repeat scroll 0 0;
+    background: #567C8D none repeat scroll 0 0;
     border: 0 none;
-    color: var(--color-primary);
+    color: #567C8D;
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-    background: var(--color-primary) none repeat scroll 0 0;
+    background: #567C8D none repeat scroll 0 0;
 }
 
 .ui-slider-horizontal {
@@ -259,7 +259,7 @@
                 transition: 0.4s;
 
                 &:hover {
-                    background: var(--color-primary);
+                    background: #567C8D;
                     color: var(--color-white);
                 }
             }
@@ -313,7 +313,7 @@
     .dropdown-item.active,
     .dropdown-item:active {
         background-color: var(--black-opacity);
-        color: var(--color-primary);
+        color: #567C8D;
     }
 
     .bootstrap-select .dropdown-menu li a span.text {
@@ -370,7 +370,7 @@
 
     .dropdown-item:focus,
     .dropdown-item:hover {
-        color: var(--color-primary);
+        color: #567C8D;
         background-color: var(--black-opacity);
     }
 
