@@ -28,6 +28,10 @@
         background: #000000 !important;
     }
 
+    .bg-color-white-alt {
+        background: var(--color-bodyest);
+    }
+
     .color-white-dark {
         background: var(--color-white-dark);
     }
