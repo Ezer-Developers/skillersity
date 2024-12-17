@@ -3,8 +3,8 @@ import LanguageAcademyPage from "./(language-academy)";
 import { getAllPostsMeta } from "@/mdx";
 
 export const metadata = {
-  title: "Language Academy - Online Courses & Education NEXTJS14 Template",
-  description: "Online Courses & Education NEXTJS14 Template",
+  title: "Skillersity - Online Courses & Education",
+  description: "Online Courses & Education",
 };
 
 const LanguageAcademyLayout = async () => {
